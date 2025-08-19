@@ -1,0 +1,1 @@
+UPDATE usuarios SET perfil = 'ADMIN' WHERE id = 1;
