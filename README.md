@@ -1,10 +1,10 @@
-# 📚FOROHUB API REST
+# FOROHUB API REST
 ### 🏹 Descripción
 **FOROHUB** es una API REST construida con **Spring Boot** 3 para gestionar foros de discusión. <br>
 Permite a los usuarios crear, leer, actualizar y eliminar _tópicos_ (preguntas/discusiones). <br>
 La aplicación implementa **autenticación y autorización** con JWT y control de acceso basado en roles para garantizar que solo los usuarios autorizados puedan realizar ciertas acciones.
 
-# 🛠️ Tecnologías utilizadas
+# Tecnologías utilizadas
 - **Java 17** - Lenguaje de programación robusto y moderno.
 - **Spring Boot** - Framework para facilitar el desarrollo de aplicaciones web y APIs.
 - **Spring Security** - Módulo para la seguridad, manejo de autenticación y autorización.
@@ -13,7 +13,7 @@ La aplicación implementa **autenticación y autorización** con JWT y control d
 - **MySQL** - Base de datos relacional para persistencia de datos.
 - **Flyway** – Migraciones automáticas para el control de versiones de la base de datos.
 
-# ✨ Funcionalidades principales
+# Funcionalidades principales
 **1. Autenticación y autorización**
 - Inicio de sesión con credenciales (usuario y contraseña) que genera un **token JWT**.
 - Control de acceso por roles: ```ADMIN```, ```USUARIO```, ```MODERADOR```.
@@ -46,7 +46,7 @@ Respuestas claras en caso de:
 - Roles asignados a usuarios para control granular de permisos.
 - Migraciones gestionadas con **Flyway** para control de versiones de base de datos.
 
-## 📍 Endpoints principales
+## Endpoints principales
 | Método   | Endpoint           | Descripción                  | Autenticación | Rol requerido      |          
 |----------|--------------------|------------------------------|----------------|--------------------|
 | `POST`   | `/usuarios`        | Registro de nuevo usuario    | No             |         -          |
