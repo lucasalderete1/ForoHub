@@ -1,5 +1,5 @@
 # FOROHUB API REST
-### 🏹 Descripción
+### Descripción
 **FOROHUB** es una API REST construida con **Spring Boot** 3 para gestionar foros de discusión. <br>
 Permite a los usuarios crear, leer, actualizar y eliminar _tópicos_ (preguntas/discusiones). <br>
 La aplicación implementa **autenticación y autorización** con JWT y control de acceso basado en roles para garantizar que solo los usuarios autorizados puedan realizar ciertas acciones.
@@ -80,7 +80,7 @@ Respuestas claras en caso de:
 
 
 
- # 📂 Estructura del proyecto:
+ # Estructura del proyecto:
 ```plaintext
 src
 ├── controller       # Controladores REST/
@@ -92,7 +92,7 @@ src
     └── application.properties  # Configuración
 ```
 
-# ⚙️ Configuración
+# Configuración
 **1.** Configura el archivo ```application.properties``` con:
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/forohub
